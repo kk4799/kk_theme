@@ -1,0 +1,26 @@
+name: KK Theme
+type: theme
+description: Custom Theme from DrupalCon Baltimore 2017 Theming Drupal 8
+package: Other
+core: 8.x
+base theme: classy
+
+# Default set of regions.
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: 'Highlighted'
+  featured_top: 'Featured top'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+
+libraries:
+  - reboot/global
+  - reboot/bootstrap
